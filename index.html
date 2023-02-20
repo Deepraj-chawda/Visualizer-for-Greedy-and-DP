@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Visualizer for Greedy and DP</title>
+	<style>
+
+body {
+background-color: #f5f5f5;
+
+}
+
+		.container {
+			display: flex;
+			flex-direction: row;
+			height: 100vh;
+		}
+		.section {
+			flex: 1;
+			display: flex;
+			flex-direction: column;
+
+			align-items: center;
+		}
+		.box {
+			background-color: lightblue;
+			height: 100px;
+			width: 200px;
+			margin: 10px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 24px;
+			color: white;
+			text-decoration: none;
+			border-radius: 10px;
+			transition: all 0.2s ease-in-out;
+		}
+		.box:hover {
+			transform: scale(1.1);
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+		}
+		.section1 .box {
+			background-color: #0faee2f7;
+		}
+		.section2 .box {
+			background-color: #11d411;
+		}
+		.section3 .box {
+			background-color: lightpink;
+		}
+		.section4 .box {
+			background-color: lightyellow;
+		}
+		.heading  {
+			background-color: #1028c4;
+			font-size: 36px;
+			font-weight: bold;
+			text-align: center;
+			margin: 30px 40%;
+			justify-content: center;
+			align-items: center;
+			font-size: 24px;
+			color: white;
+			text-decoration: none;
+			border-radius: 10px
+		}
+		h2{
+		background-color: #0e2e0e;
+			font-size: 36px;
+			font-weight: bold;
+			display: flex;
+    		justify-content: center;
+			text-align: center;
+
+			justify-content: center;
+			align-items: center;
+			font-size: 24px;
+			color: white;
+			text-decoration: none;
+			border-radius: 22px;
+    		padding: 10px;
+		}
+	</style>
+</head>
+<body>
+
+	<h1 class="heading">Visualizer for Greedy and DP</h1>
+
+	<div class="container">
+		<!-- First Section -->
+		<div class="section section1">
+			<h2>Greedy Algorithm</h2>
+			<a href="page1.html" class="box">Fractional Knapsack</a>
+			<a href="page2.html" class="box">Dijkstra's algorithm</a>
+		</div>
+
+		<!-- Second Section -->
+		<div class="section section2">
+			<h2>Dynamic Programming</h2>
+			<a href="page3.html" class="box">0-1 Knapsack</a>
+			<a href="page4.html" class="box">Kadane's Algorithm</a>
+		</div>
+	</div>
+
+</body>
+</html>
