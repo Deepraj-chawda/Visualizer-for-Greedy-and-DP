@@ -7,7 +7,6 @@ function readArray() {
     console.log(a);
 
 const grid = document.querySelector('.grid')
-let timeout=1000
 let squares = []
 
 

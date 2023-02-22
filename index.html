@@ -1,109 +1,92 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Visualizer for Greedy and DP</title>
+    <title>Visualizer for Greedy and DP</title>
 
-	<style>
 
-		body {
-		background-color: #f5f5f5;
+    <style>
+        /* Custom CSS for the page */
+        body {
+            background-color: #f0f0f0;
+            font-size:24px;
+        }
 
-		}
+        .heading {
+            text-align: center;
+            color: #2c3e50;
+            margin-top: 50px;
+        }
 
-		.container {
-			display: flex;
-			flex-direction: row;
-			height: 100vh;
-		}
-		.section {
-			flex: 1;
+        .container {
+            display: flex;
+
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            margin-top: 50px;
+        }
+
+        .section {
+
 			display: flex;
 			flex-direction: column;
 
 			align-items: center;
-		}
-		.box {
-			background-color: lightblue;
-			height: 150px;
-			width: 300px;
-			margin: 10px;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			font-size: 24px;
-			color: white;
-			text-decoration: none;
-			border-radius: 50px;
-			transition: all 0.2s ease-in-out;
-		}
-		.box:hover {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 50px;
+        }
+
+        .section h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+
+        .box {
+            display: block;
+            text-align: center;
+            padding: 10px;
+            margin: 10px auto;
+            width: 300px;
+            background-color: #2c3e50;
+            color: #fff;
+            border-radius: 5px;
+            text-decoration: none;
+                font-size: xx-large;
+        }
+
+        .box:hover {
 			transform: scale(1.1);
 			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 		}
-		.section1 .box {
-			background-color: #0faee2f7;
+		 .section:hover {
+			transform: scale(1.1);
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 		}
-		.section2 .box {
-			background-color: #11d411;
-		}
-		.section3 .box {
-			background-color: lightpink;
-		}
-		.section4 .box {
-			background-color: lightyellow;
-		}
-		.heading  {
-			background-color: #1028c4;
-			font-size: 36px;
-			font-weight: bold;
-			text-align: center;
-			margin: 30px 32%;
-			justify-content: center;
-			align-items: center;
-			font-size: 30px;
-			color: white;
-			text-decoration: none;
-			border-radius: 10px;
-			    padding: 20px;
-		}
-		h2{
-		background-color: #0e2e0e;
-			font-size: 36px;
-			font-weight: bold;
-			display: flex;
-    		justify-content: center;
-			text-align: center;
-	    width: -webkit-fill-available;
-    margin: 6% 11%;
-			justify-content: center;
-			align-items: center;
-			font-size: 24px;
-			color: white;
-			text-decoration: none;
-			border-radius: 22px;
-    		padding: 12px;
-		}
-	</style>
+    </style>
 </head>
 <body>
 
-	<h1 class="heading">Visualizer for Greedy and DP</h1>
+    <h1 class="heading">Visualizer for Greedy and DP</h1>
 
-	<div class="container">
-		<!-- First Section -->
-		<div class="section section1">
-			<h2>Greedy Algorithm</h2>
-			<a href="page1.html" class="box">Fractional Knapsack</a>
-			<a href="page2.html" class="box">Dijkstra's algorithm</a>
-		</div>
+    <div class="container">
+        <!-- First Section -->
+        <div class="section section1">
+            <h2>Greedy Algorithm</h2>
+            <a href="page1.html" class="box">Fractional Knapsack</a>
+            <a href="page2.html" class="box">Dijkstra's Algorithm</a>
+        </div>
 
-		<!-- Second Section -->
-		<div class="section section2">
-			<h2>Dynamic Programming</h2>
-			<a href="page3.html" class="box">0-1 Knapsack</a>
-			<a href="Kadane.html" class="box">Kadane's Algorithm</a>
-		</div>
-	</div>
+        <!-- Second Section -->
+        <div class="section section2">
+            <h2>Dynamic Programming</h2>
+            <a href="01knapsack.html" class="box">0-1 Knapsack</a>
+            <a href="./kadane.html" class="box">Kadane's Algorithm</a>
+        </div>
+    </div>
+
 
 </body>
 </html>
