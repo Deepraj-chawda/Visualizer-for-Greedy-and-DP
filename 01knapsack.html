@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>0-1 Knapsack</title>
+
+    <link rel="stylesheet" href="./01knapsack.css">
+
+  </head>
+  <body>
+  <h1>0-1 Knapsack </h1>
+  <form>
+  <label for="weights">Weights:</label>
+  <input type="text" id="weights" name="weights" placeholder="Enter comma (,) separated values"><br><br>
+
+  <label for="profits">Profits:</label>
+  <input type="text" id="profits" name="profits" placeholder="Enter comma (,) separated values"><br><br>
+
+  <label for="capacity">Capacity:</label>
+  <input type="text" id="capacity" name="capacity" placeholder="Enter Integer value"><br><br>
+
+  <input type="button" value="Submit" onclick="submitForm()">
+    <div class="output" >Maximum Profit is <p id="maxsum">NaN</p></div>
+
+</form>
+
+
+  <div id="grid"></div>
+  </body>
+
+ <script src="01knapsack.js"></script>
+</html>
